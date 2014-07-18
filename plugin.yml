@@ -1,0 +1,45 @@
+name: ChangeGameMode
+main: me.Vinceguy1.ChangeGameMode.Main
+version: 1.1.1 U2
+dev-url: http://dev.bukkit.org/server-mods/changegamemode-v0-4
+description: Changes player's game mode.
+commands:
+  gm help:
+    description: Shows the ChangeGameMode plugin's help page.
+  gm:
+    description: Toggles your gamemode.
+    permission node: gm.toggle
+  gm <target>:
+    description: Toggles <target>'s gamemode.
+    permission node: gm.toggle.others
+  gm s:
+    description: Changes your gamemode to survival.
+    permission node: gm.survival
+  gm s <target>:
+    description: Changes <target>'s gamemode to survival.
+    permission node: gm.survival.others
+  gm c:
+    description: Changes your gamemode to creative.
+    permission node: gm.creative
+  gm c <target>:
+    description: Changes <target>'s gamemode to creative.
+    permission node: gm.creative.others
+  gm check:
+    description: Checks/Displays your gamemode.
+    permission node: gm.check
+  gm check <target>:
+    description: Checks/Displays <target>'s gamemode.
+    permission node: gm.check.others
+  gm all:
+    description: Toggles everyone's gamemode.
+    permission node: gm.toggle.all
+  gm s all:
+    description: Changes everyones gamemode to survival.
+    permission node: gm.survival.all
+  gm c all:
+    description: Changes everyones gamemode to creative.
+    permission node: gm.creative.all
+  gm version:
+    description: Displays the changegamemode version.
+    permission node: gm.creative.all
+    
